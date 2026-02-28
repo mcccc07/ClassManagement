@@ -1,3 +1,39 @@
+# 📚 ClassManagement
+
+A web-based Class Management System built with **Laravel** that helps educators manage students, track attendance and grades, and generate insightful reports.
+
+---
+
+## 🚀 Features
+
+- 👨‍🎓 **Student Management** — Add, update, and manage student records
+- 📊 **Grades & Attendance** — Track student performance and daily attendance
+- 📈 **Reports & Dashboard** — View summaries and analytics at a glance
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology        |
+|------------|-------------------|
+| Backend    | Laravel (PHP)     |
+| Frontend   | Blade Templates   |
+| Database   | MySQL             |
+| Styling    | Bootstrap / Tailwind CSS |
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+- PHP >= 8.1
+- Composer
+- MySQL
+- Node.js & npm
+
+### Steps
+
+```bash
 # 1. Clone the repository
 git clone https://github.com/mcccc07/ClassManagement.git
 cd ClassManagement
@@ -22,3 +58,52 @@ php artisan migrate
 
 # 7. Start the server
 php artisan serve
+```
+
+Then visit: **http://localhost:8000**
+
+---
+
+## 📁 Project Structure
+
+```
+ClassManagement/
+├── app/
+│   ├── Http/Controllers/   # App controllers
+│   └── Models/             # Eloquent models
+├── database/
+│   └── migrations/         # Database migrations
+├── resources/
+│   └── views/              # Blade templates
+├── routes/
+│   └── web.php             # Web routes
+└── public/                 # Public assets
+```
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots here_
+
+---
+
+## 🤝 Contributing
+
+1. Fork the project
+2. Create your feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**mcccc07** — [GitHub Profile](https://github.com/mcccc07)
