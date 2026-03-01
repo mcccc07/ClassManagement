@@ -1,5 +1,6 @@
-<img src="public/images/LVImage.png" alt="LvLogo" width="70%">
-
+<div align="center">
+    <img src="public/images/LVImage.png" alt="LvLogo" width="70%">
+</div>
 # ClassManagement
 
 A web-based Class Management System built with **Laravel** that helps educators manage students, track attendance and grades, and generate insightful reports.
