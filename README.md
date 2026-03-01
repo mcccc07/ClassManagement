@@ -1,4 +1,4 @@
-<img src="public/images/LVImage.png" alt="LvLogo" width="30%">
+<img src="public/images/LVImage.png" alt="LvLogo" width="70%">
 
 # ClassManagement
 
