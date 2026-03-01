@@ -29,7 +29,6 @@ A web-based Class Management System built with **Laravel** that helps educators 
 | Database | MySQL |
 | Styling | Bootstrap / Tailwind CSS |
 
-> > > > > > > 7123ad86ee1a30e22f988b90444b5cb112e44583
 
 ---
 
