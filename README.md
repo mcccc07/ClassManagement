@@ -1,4 +1,6 @@
-# 📚 ClassManagement
+![Alt text](public/images/LVlogo.png)
+
+# ClassManagement
 
 A web-based Class Management System built with **Laravel** that helps educators manage students, track attendance and grades, and generate insightful reports.
 
@@ -28,7 +30,6 @@ A web-based Class Management System built with **Laravel** that helps educators 
 | Frontend | Blade Templates |
 | Database | MySQL |
 | Styling | Bootstrap / Tailwind CSS |
-
 
 ---
 
