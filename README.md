@@ -15,26 +15,28 @@ A web-based Class Management System built with **Laravel** that helps educators 
 ## 🛠️ Tech Stack
 
 <<<<<<< HEAD
-| Layer    | Technology               |
+| Layer | Technology |
 | -------- | ------------------------ |
-| Backend  | Laravel (PHP)            |
-| Frontend | Blade Templates          |
-| Database | MySQL                    |
-| Styling  | Bootstrap / Tailwind CSS |
+| Backend | Laravel (PHP) |
+| Frontend | Blade Templates |
+| Database | MySQL |
+| Styling | Bootstrap / Tailwind CSS |
 =======
-| Layer      | Technology        |
+| Layer | Technology |
 |------------|-------------------|
-| Backend    | Laravel (PHP)     |
-| Frontend   | Blade Templates   |
-| Database   | MySQL             |
-| Styling    | Bootstrap / Tailwind CSS |
->>>>>>> 7123ad86ee1a30e22f988b90444b5cb112e44583
+| Backend | Laravel (PHP) |
+| Frontend | Blade Templates |
+| Database | MySQL |
+| Styling | Bootstrap / Tailwind CSS |
+
+> > > > > > > 7123ad86ee1a30e22f988b90444b5cb112e44583
 
 ---
 
 ## ⚙️ Installation
 
 ### Prerequisites
+
 <<<<<<< HEAD
 
 - PHP >= 8.1
@@ -108,7 +110,9 @@ ClassManagement/
 5. Open a Pull Request
 
 ---
+
 =======
+
 - PHP >= 8.1
 - Composer
 - MySQL
@@ -178,5 +182,3 @@ ClassManagement/
 3. Commit your changes: `git commit -m "Add your feature"`
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
-
->>>>>>> 7123ad86ee1a30e22f988b90444b5cb112e44583
