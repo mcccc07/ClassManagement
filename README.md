@@ -1,4 +1,4 @@
-![Alt text](public/images/LVlogo.png)
+<img src="images/LVlogo.png" alt="LvLogo" width="30%">
 
 # ClassManagement
 
