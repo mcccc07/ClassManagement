@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -10,4 +12,14 @@
         "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
+}
+[data-theme="synthwave"] {
+    --background: #2b003b;
+    --text: #ffffff;
+    --primary: #ff75c3;
+}
+@layer base {
+    html[data-theme="synthwave"] {
+        @apply bg-[#2b003b] text-white;
+    }
 }
