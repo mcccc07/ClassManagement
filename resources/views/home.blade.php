@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+    </script>
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>LVCM</title>
 </head>
@@ -37,9 +43,7 @@
 
                             <label class="relative inline-flex cursor-pointer items-center">
                                 <input type="checkbox" class="peer sr-only theme-controller" />
-
                                 <div class="h-6 w-10 rounded-full bg-gray-300 peer-checked:bg-blue-500 transition-colors"></div>
-
                                 <div class="absolute left-1 top-1 h-4 w-4 rounded-full bg-white transition-transform peer-checked:translate-x-4"></div>
                             </label>
 
@@ -51,12 +55,12 @@
                 </div>
             </div>
         </div>
-
     </header>
+
     <main class="relative bg-[url('/public/images/LVImage.png')] h-screen bg-cover bg-center">
         <div class="absolute inset-0 bg-black/50"></div>
 
-        <div class="relative z-10 flex justify-center h-full ">
+        <div class="relative z-10 flex justify-center h-full">
             <div class="mt-28 text-center">
                 <div class="justify-center align-center">
                     <img src="images/LVlogo.png" alt="LVCM Logo" class="w-24 h-auto mb-4 mx-auto">
@@ -74,24 +78,9 @@
         <section id="about">
             <div>
                 <p>About</p>
-
             </div>
         </section>
     </main>
-    <script>
-        const toggle = document.querySelector('.theme-controller');
-        const htmlElement = document.documentElement; // This is the <html> tag
-
-        toggle.addEventListener('change', function() {
-            if (this.checked) {
-                // Switch to dark theme
-                htmlElement.setAttribute('data-theme', 'dark');
-            } else {
-                // Switch to light theme
-                htmlElement.setAttribute('data-theme', 'light');
-            }
-        });
-    </script>
 </body>
 
 </html>
