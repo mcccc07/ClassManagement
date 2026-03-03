@@ -19,7 +19,9 @@
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">About</a>
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Contact</a>
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Courses</a>
-                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 w-28 rounded-lg">Login</button>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 w-28 rounded-lg">
+                            <a href="{{ route('login') }}">Login</a>
+                        </button>
                         <div class="flex items-center gap-4">
                             <svg class="h-4 w-6 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="5"></circle>
@@ -54,17 +56,22 @@
     <main class="relative bg-[url('/public/images/LVImage.png')] h-screen bg-cover bg-center">
         <div class="absolute inset-0 bg-black/50"></div>
 
-        <div class="relative z-10 flex items-center justify-center h-full">
-            <div class="text-center">
-                <h1 class="text-4xl font-bold mb-4 text-white">Welcome to LVCM</h1>
-                <p class="text-lg text-gray-300 mb-8">Your gateway to quality education and career development.</p>
+        <div class="relative z-10 flex justify-center h-full ">
+            <div class="mt-28 text-center">
+                <div class="justify-center align-center">
+                    <img src="images/LVlogo.png" alt="LVCM Logo" class="w-24 h-auto mb-4 mx-auto">
+                </div>
+                <h1 class="text-7xl font-bold mb-4 text-white">Welcome to LVCM</h1>
+                <div class="mx-auto w-2/4">
+                    <p class="text-lg text-gray-300 mb-8">LVCM is a web-based platform for managing and delivering educational content. This allows students and educators to access and share learning materials efficiently.</p>
+                </div>
                 <button>
-                    <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Get Started</a>
+                    <a href="#about" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg text-xl">Learn More</a>
                 </button>
             </div>
         </div>
 
-        <section>
+        <section id="about">
             <div>
                 <p>About</p>
 
