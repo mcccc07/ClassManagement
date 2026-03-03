@@ -10,9 +10,17 @@
 
 <body class="bg-gray-500">
     <div class="flex items-center justify-center h-screen bg-gray-100">
+
+        <a href="{{ route('home') }}" class="absolute top-6 left-6 flex items-center gap-2 text-gray-500 hover:text-blue-600 transition-colors duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 12H7M7 12l4-4M7 12l4 4" />
+            </svg>
+            <span class="text-md font-medium">Back to Home</span>
+        </a>
+
         <div class="flex justify-center items-stretch bg-white rounded-lg shadow-md overflow-hidden">
 
-            <div class="relative w-80 h-full min-h-[500px] overflow-hidden rounded-lg hidden md:block">
+            <div class="relative w-80 h-full min-h-125 overflow-hidden rounded-lg hidden md:block">
                 <img src="images/LVImage.png" alt="LVImage" class="absolute inset-0 w-full h-full object-cover z-0">
                 <div class="absolute inset-0 bg-black/50 z-10"></div>
                 <div class="absolute inset-0 z-20 flex items-center justify-center">
