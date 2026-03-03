@@ -30,6 +30,6 @@ class DatabaseSeeder extends Seeder
         );
 
         // Students stored in students table
-        User::factory(10)->create();
+        User::factory(50)->create();
     }
 }
