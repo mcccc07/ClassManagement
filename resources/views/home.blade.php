@@ -15,10 +15,10 @@
                 <img src="images/LVlogo.png" alt="Lvcm Logo" class="w-18 h-auto ml-5 mt-1">
                 <div class="mt-1 mr-12">
                     <nav class="flex gap-8 justify-end items-center space-x-4 mr-5">
-                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white">Home</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white">About</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white">Contact</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white">Courses</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">About</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Contact</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Courses</a>
                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 w-28 rounded-lg">Login</button>
                         <div class="flex items-center gap-4">
                             <svg class="h-4 w-6 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
