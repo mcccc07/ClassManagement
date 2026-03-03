@@ -6,10 +6,6 @@ use App\Models\User;
 use App\Models\Admin;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
-use Database\Seeders\StudentSeeder;
 
 class DatabaseSeeder extends Seeder
 {
