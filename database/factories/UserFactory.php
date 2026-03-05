@@ -23,20 +23,26 @@ class UserFactory extends Factory
      */
     public function definition(): array
     {
+        $firstname = fake()->unique()->firstName();
+        $lastname = fake()->unique()->lastName();
+
+        // The unique() helper ensures this specific combination hasn't been used yet
+        $email = fake()->unique()->lexify(
+            strtolower($firstname) . '.' . strtolower($lastname)
+        ) . '@student.laverdad.edu.ph';
+
         return [
-            'name' => fake()->name(),
-            'email' => fake()->unique()->safeEmail(),
+            'name' => "$firstname $lastname",
+            'email' => $email,
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
+            'role' => 'student',
             'remember_token' => Str::random(10),
             'course' => fake()->randomElement(['BSIT', 'BSCS', 'BSN']),
             'yearlvl' => fake()->randomElement(['1st Year', '2nd Year', '3rd Year', '4th Year']),
         ];
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     */
     public function unverified(): static
     {
         return $this->state(fn(array $attributes) => [

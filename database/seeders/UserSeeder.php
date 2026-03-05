@@ -10,15 +10,18 @@ use Illuminate\Support\Facades\Hash;
 
 class StudentSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+
     public function run(): void
     {
         User::create([
             'name' => 'Admin User',
-            'email' => 'admin@example.com',
-            'password' => Hash::make('password'),
+            'email' => 'admin@laverdad.edu.ph',
+            'password' => Hash::make('admin123'),
+        ]);
+        User::create([
+            'name' => 'Student User',
+            'email' => 'macrobert@student.laverdad.edu.ph',
+            'password' => Hash::make('student123'),
         ]);
         User::factory()->count(50)->create();
     }
