@@ -23,14 +23,8 @@ A web-based Class Management System built with **Laravel** that helps educators 
 | Backend  | Laravel (PHP)            |
 | Frontend | Blade Templates          |
 | Database | MySQL                    |
-| Styling  | Bootstrap / Tailwind CSS |
+| Styling  |Tailwind CSS              |
 
-| Layer    | Technology               |
-| -------- | ------------------------ |
-| Backend  | Laravel (PHP)            |
-| Frontend | Blade Templates          |
-| Database | MySQL                    |
-| Styling  | Bootstrap / Tailwind CSS |
 
 ---
 
