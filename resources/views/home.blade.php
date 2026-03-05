@@ -22,7 +22,7 @@
                 <div class="mt-1 mr-12">
                     <nav class="flex gap-8 justify-end items-center space-x-4 mr-5">
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Home</a>
-                        <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">About</a>
+                        <a href="#about" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">About</a>
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Contact</a>
                         <a href="#" class="text-gray-700 hover:text-blue-800 font-bold dark:text-white dark:hover:text-blue-300">Courses</a>
                         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 w-28 rounded-lg">
@@ -57,11 +57,11 @@
         </div>
     </header>
 
-    <main class="relative bg-[url('/public/images/LVImage.png')] h-screen bg-cover bg-center">
+    <main class="relative bg-[url('/public/images/LVImage.png')] min-h-screen bg-cover bg-center overflow-hidden">
         <div class="absolute inset-0 bg-black/50"></div>
 
-        <div class="relative z-10 flex justify-center h-full">
-            <div class="mt-28 text-center">
+        <div class="relative z-10 flex justify-center items-center min-h-screen pb-8">
+            <div class="text-center">
                 <div class="justify-center align-center">
                     <img src="images/LVlogo.png" alt="LVCM Logo" class="w-24 h-auto mb-4 mx-auto">
                 </div>
@@ -75,9 +75,36 @@
             </div>
         </div>
 
-        <section id="about">
-            <div>
-                <p>About</p>
+        <section id="about" class="relative z-10 bg-white dark:bg-blue-900 px-10 py-6">
+            <div class="flex justify-center">
+                <p class="text-5xl font-bold text-blue-500 dark:text-white mt-4 mb-8">About</p>
+            </div>
+            <div class="grid grid-cols-3 gap-4 mr-4 ml-4 mt-4">
+                <section class="bg-blue-700 dark:bg-blue-600 rounded-lg text-center">
+                    <h2 class="text-2xl font-bold text-white mt-4 mb-2">Our Mission</h2>
+                    <p class="text-md text-white px-2 py-8 m-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos hic ipsum quod quia. Adipisci exercitationem accusamus dolor animi optio non accusantium magni, ex omnis deleniti. Perferendis consequuntur tempore voluptatem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquid ullam praesentium sit fuga, ab distinctio fugiat doloremque, quidem cum voluptates sequi aliquam facere tempora molestias ipsum beatae aut vitae!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas, fugit eligendi quaerat eos natus? Repellendus odio eius ratione hic molestias quia consequuntur voluptatem soluta praesentium? Quae, cum ipsa? Cum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis nisi saepe aliquid. Quisquam tempora quos a optio deserunt nemo exercitationem, alias odit delectus veritatis accusamus ut, blanditiis ipsa? Tenetur?
+                    </p>
+                </section>
+                <section class="bg-blue-700 dark:bg-blue-600 rounded-lg text-center">
+                    <h2 class="text-2xl font-bold text-white mt-4 mb-2">Our Vision</h2>
+                    <p class="text-md text-white px-4 py-8 m-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos hic ipsum quod quia. Adipisci exercitationem accusamus dolor animi optio non accusantium magni, ex omnis deleniti. Perferendis consequuntur tempore voluptatem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquid ullam praesentium sit fuga, ab distinctio fugiat doloremque, quidem cum voluptates sequi aliquam facere tempora molestias ipsum beatae aut vitae!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas, fugit eligendi quaerat eos natus? Repellendus odio eius ratione hic molestias quia consequuntur voluptatem soluta praesentium? Quae, cum ipsa? Cum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis nisi saepe aliquid. Quisquam tempora quos a optio deserunt nemo exercitationem, alias odit delectus veritatis accusamus ut, blanditiis ipsa? Tenetur?</p>
+                </section>
+                <section class="bg-blue-700 dark:bg-blue-600 rounded-lg text-center">
+                    <h2 class="text-2xl font-bold text-white mt-4 mb-2">Our Values</h2>
+                    <p class="text-md text-white px-4 py-8 m-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos hic ipsum quod quia. Adipisci exercitationem accusamus dolor animi optio non accusantium magni, ex omnis deleniti. Perferendis consequuntur tempore voluptatem?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquid ullam praesentium sit fuga, ab distinctio fugiat doloremque, quidem cum voluptates sequi aliquam facere tempora molestias ipsum beatae aut vitae!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse voluptas, fugit eligendi quaerat eos natus? Repellendus odio eius ratione hic molestias quia consequuntur voluptatem soluta praesentium? Quae, cum ipsa? Cum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis nisi saepe aliquid. Quisquam tempora quos a optio deserunt nemo exercitationem, alias odit delectus veritatis accusamus ut, blanditiis ipsa? Tenetur?</p>
+                </section>
             </div>
         </section>
     </main>
