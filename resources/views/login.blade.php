@@ -38,11 +38,11 @@
                 <form action="#" method="POST" class="space-y-6">
                     <div>
                         <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Email Address</label>
-                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 mt-1 border border-blue-600 rounded-md dark:bg-gray-700 dark:text-white dark:border-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="email" id="email" name="email" placeholder="yourname@student.laverdad.edu.ph" required class="w-full px-4 py-2 mt-1 border border-blue-600 rounded-md dark:bg-gray-700 dark:text-white dark:border-white focus:outline-none focus:ring-2 focus:ring-blue-500">
                     </div>
                     <div>
                         <label for="password" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Password</label>
-                        <input type="password" id="password" name="password" required class="w-full px-4 py-2 mt-1 border border-blue-600 rounded-md dark:bg-gray-700 dark:text-white dark:border-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="password" id="password" name="password" placeholder="Password must contain 8-20 characters" required class="w-full px-4 py-2 mt-1 border border-blue-600 rounded-md dark:bg-gray-700 dark:text-white dark:border-white focus:outline-none focus:ring-2 focus:ring-blue-500">
                     </div>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">

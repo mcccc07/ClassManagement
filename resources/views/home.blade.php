@@ -77,7 +77,7 @@
 
         <section id="about" class="relative z-10 bg-white dark:bg-blue-900 px-10 py-6">
             <div class="flex justify-center">
-                <p class="text-5xl font-bold text-blue-500 dark:text-white mt-4 mb-8">About</p>
+                <p class="text-5xl font-bold text-blue-700 dark:text-white mt-4 mb-8">About</p>
             </div>
             <div class="grid grid-cols-3 gap-4 mr-4 ml-4 mt-4">
                 <section class="bg-blue-700 dark:bg-blue-600 rounded-lg text-center">
